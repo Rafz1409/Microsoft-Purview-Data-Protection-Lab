@@ -242,11 +242,12 @@ Expect propagation delays at every step. If something looks broken, wait and ref
 purview-data-protection-lab/
 ├── README.md
 ├── test-data/
-│   ├── Salaries_2026.xlsx
+│   ├── Cafeteria_Menu.docx
 │   ├── Client_Invoices.xlsx
 │   ├── Employment_contract_21.docx
-│   ├── Cafeteria_Menu.docx
-│   └── Internal_References.docx
+│   ├── Internal_references.docx
+|   ├── PROJ_SIT_Test_Cases.txt
+│   └── Salaries_2026.xlsx
 └── screenshots/
     ├── 01-test-data/
     ├── 02-labels-and-sits/
