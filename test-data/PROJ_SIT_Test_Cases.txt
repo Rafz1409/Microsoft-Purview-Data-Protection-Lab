@@ -1,0 +1,17 @@
+Case 1 (expected: DETECTED): confidential project code PROJ-2026-1234
+
+The weekly newsletter for the Lisbon office covers the cafeteria schedule, parking arrangements, the upcoming fire drill on Thursday morning, and reminders about returning borrowed equipment to the front desk. Employees are encouraged to update their contact details in the intranet and to check the notice board on the second floor for other announcements from the operations team. 
+
+Case 2 (expected: not detected, no keyword nearby): code PROJ-2026-5678
+
+The weekly newsletter for the Lisbon office covers the cafeteria schedule, parking arrangements, the upcoming fire drill on Thursday morning, and reminders about returning borrowed equipment to the front desk. Employees are encouraged to update their contact details in the intranet and to check the notice board on the second floor for other announcements from the operations team. 
+
+Case 3 (expected: not detected, invalid year): project code PROJ-1999-1234
+
+The weekly newsletter for the Lisbon office covers the cafeteria schedule, parking arrangements, the upcoming fire drill on Thursday morning, and reminders about returning borrowed equipment to the front desk. Employees are encouraged to update their contact details in the intranet and to check the notice board on the second floor for other announcements from the operations team. 
+
+Case 4 (expected: not detected, only 2 final digits): project code PROJ-2026-12
+
+The weekly newsletter for the Lisbon office covers the cafeteria schedule, parking arrangements, the upcoming fire drill on Thursday morning, and reminders about returning borrowed equipment to the front desk. Employees are encouraged to update their contact details in the intranet and to check the notice board on the second floor for other announcements from the operations team. 
+
+Case 5 (expected: not detected, missing first hyphen): project code PROJ2026-1234
