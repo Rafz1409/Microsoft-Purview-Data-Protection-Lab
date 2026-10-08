@@ -259,5 +259,5 @@ purview-data-protection-lab/
 ## Notes
 
 - All data is fictitious. No real personal or financial data was used.
-- Screenshots have the tenant domain, email addresses.
+- Screenshots have the tenant domain, email addresses covered.
 - I used an AI assistant to help with troubleshooting and to review my write-up. I did the configuration and the testing, and the conclusions are mine.
